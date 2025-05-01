@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <%= title %> </title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="/new" method="POST">
+            <h2>Send a new message</h2>
+            <label>
+                <input type="text" placeholder="your name" name="name">
+            </label>
+            <label>
+                <textarea name="msg" rows="2" placeholder="your message..." ></textarea>
+            </label>
+            <button type="submit">Send</button>            
+        </form>
+    </div>
+</body>
+</html>
